@@ -1,0 +1,158 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 4px rgba(231, 50, 18, 0.562); /* Adicione a sombra desejada aqui */
+}
+
+
+.nav {
+  padding-left: 0.1em;
+  padding-right: 2em;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1360px;
+}
+
+.navLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.15s ease-in-out;
+}
+
+.navMiddle {
+  display: flex;
+  margin-left: 12px;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.homeLink:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  margin-top: 6px;
+  transition: all 0.15s ease-in-out;
+}
+
+.profileImage:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.homeLink {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.buttonLink {
+  /* Estilos existentes do botão */
+  box-shadow: 0 2px 4px rgba(206, 196, 196, 0.932);
+}
+
+
+.buttonLink:hover {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.fire {
+  background-color: rgb(241, 83, 35) !important;
+  font-weight: bold !important;
+}
+
+/* Screens less than 720px */
+@media (max-width: 500px) {
+  .navConnect {
+    display: none !important;
+  }
+}
+.heroCta {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 16px 0;
+  background-clip: padding-box;
+  background-color: rgb(241, 83, 35);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  transition: opacity 0.2s;
+  width: 150px;
+}
+.heroCta:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.nft {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 20px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  margin: 8px 0;
+  background-clip: padding-box;
+  background-color: rgb(54, 167, 201);
+  border-radius: 8px;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  transition: opacity 0.2s;
+  width: 150px;
+}
+.nft:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.btn{
+  height: 45px !important;
+}
