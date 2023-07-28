@@ -22,7 +22,7 @@ export function Navbar() {
               alt="Burn Plus Plus"
             />
              <Image
-              src="/LogoLetras.png"
+              src="/logoLetras.png"
               width={120}
               height={40}
               alt="Burn Plus Plus"
