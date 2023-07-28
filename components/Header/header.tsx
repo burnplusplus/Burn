@@ -32,7 +32,7 @@ export default function Header() {
     };
     useEffect(() => {
         const getEthPrice = async () => {
-            const response = await axios.get(`http://localhost:3001/getethprice`, {});
+            const response = await axios.get(`https://appa-app-72mbg.ondigitalocean.app/getethprice`, {});
             setEthPrice(response.data.usdPrice);
         };
 
