@@ -28,33 +28,6 @@
   border-radius: 16px;
   margin-top: 50px;
 }
-@media (max-width: 760px) {
-  .mintInfoContainer {
-    width: 50%;
-  }
-  .infoSide{
-    margin-left: 500px;
-  }
-  .imageSide{
-    margin-left: 300px;
-  }
-  .mintCompletionArea{
-    margin-left: 350px;
-  }
-  .quantityContainer{
-    margin-left: 150px;
-  }
-  .quantid{
-    margin-left: 400px;
-  }
-  .mintContainer{
-    margin-left: 150px;
-  }
-  .GapTop{
-    margin-left: 500px;
-  }
-  
-}
 
 .infoSide {
   display: flex;
@@ -177,10 +150,10 @@
   margin-bottom: 16px;
 }
 
-.GapTop {
+.buttonGapTop {
   cursor: pointer;
   margin-top: 10rem;
- 
+  margin-left: 5%;
 }
 
 .quantityContainer {
@@ -252,7 +225,26 @@
   margin-top: -20px;
 }
 
+/* On mobile, make the .mintInfoContainer stack vertically */
+@media screen and (max-width: 850px) {
+  .mintInfoContainer {
+    flex-direction: column;
+    padding-bottom: 5%;
+    margin-top: 15%;
+  }
 
+  .infoSide {
+    width: 100%;
+  }
+
+  .imageSide {
+    width: 80%;
+  }
+
+  .description {
+    width: 90%;
+  }
+}
 
 .container {
   display: flex;
@@ -295,6 +287,16 @@
   margin-left: 15%;
 }
 
+@media screen and (max-width: 850px) {
+  .center {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1%;
+  }
+  .price {
+    margin-left: 20%;
+  }
+}
 
 .nft {
   position: relative;
@@ -314,7 +316,6 @@
   line-height: 20px;
   transition: opacity 0.2s;
   width: 500px;
-  margin: 0 auto;
 }
 
 .nft:hover {
@@ -322,4 +323,8 @@
   opacity: 0.6;
 }
 
-
+@media screen and (max-width: 850px) {
+  .nft {
+    width: 300px;
+  }
+}
