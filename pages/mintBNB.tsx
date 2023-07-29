@@ -220,13 +220,9 @@ const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
-
-
       <div className={styles.mintInfoContainer}>
-        {isLoading ? (
-
-          <DotLoader color="#306283" size={35} />
-
+         {isLoading ? (
+          <DotLoader color="#306283" size={35} aling-itens="center"/>
         ) : (
           <>
             <div className={styles.infoSide}>
@@ -244,9 +240,7 @@ const Home: NextPage = () => {
             </div>
 
             <div className={styles.imageSide}>
-              {/* Image Preview of NFTs */}
-
-
+               {/* Image Preview of NFTs */}
               <Image
                 src="/LogoBurn2.png"
                 width={300}
@@ -353,13 +347,10 @@ const Home: NextPage = () => {
       <Image
         src="/logo.png"
         alt="thirdweb Logo"
-        width={250}
-        height={100}
-        className={styles.buttonGapTop}
-        style={{
-          objectFit: "contain",
-        }}
-      />
+        width={187}
+        height={243}
+        className={styles.GapTop}
+        />
       <Image
         src="/fogoColor.png"
         width={1200}
