@@ -15,21 +15,46 @@
   padding: 8px;
 }
 
-
 .mintInfoContainer {
   display: flex;
-  flex-direction: column; /* Alteramos para column para alinhar em coluna */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 720px; /* Alteramos min-height para height para melhor alinhar na coluna */
+  height: 720px;
   max-width: 95vw;
   gap: 2%;
   border: 1px solid var(--border-color);
   border-radius: 16px;
   margin-top: 50px;
 }
-
+@media (max-width: 760px) {
+  .mintInfoContainer {
+    width: 50%;
+  }
+  .infoSide{
+    margin-left: 500px;
+  }
+  .imageSide{
+    margin-left: 300px;
+  }
+  .mintCompletionArea{
+    margin-left: 350px;
+  }
+  .quantityContainer{
+    margin-left: 150px;
+  }
+  .quantid{
+    margin-left: 400px;
+  }
+  .mintContainer{
+    margin-left: 150px;
+  }
+  .GapTop{
+    margin-left: 500px;
+  }
+  
+}
 
 .infoSide {
   display: flex;
@@ -47,7 +72,6 @@
   width: 500px;
 }
 
-
 .imageSide {
   width: 25%;
   height: 100%;
@@ -57,19 +81,21 @@
   width: 85%;
   border-radius: 32px;
 }
-.puppets{
+
+.puppets {
   border-radius: 10px;
   margin-left: 10%;
 }
-@media  only screen and (max-width: 700px){
-  .puppets{
+
+@media only screen and (max-width: 700px) {
+  .puppets {
     width: 300px;
     height: 300px;
     align-items: center;
   }
 }
 
-.puppets2{
+.puppets2 {
   width: 1500px;
   height: 450px;
   align-items: center;
@@ -97,26 +123,19 @@
   outline-offset: 2px;
   line-height: 1.2;
   font-weight: 600;
-  transition-property: background-color, border-color, color, fill, stroke,
-    opacity, box-shadow, transform;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-duration: 200ms;
   height: 3rem;
   min-width: 3rem;
   font-size: 1rem;
   background: #e5e5ea;
-  background-image: linear-gradient(
-    to left,
-    var(--color-primary) 0%,
-    var(--color-secondary) 101.52%
-  );
+  background-image: linear-gradient(to left, var(--color-primary) 0%, var(--color-secondary) 101.52%);
   color: #fff;
   padding: 20px;
   text-align: center;
   border-radius: 9999px;
   border-style: none;
 }
-
-
 
 .heroBackgroundInner {
   position: absolute;
@@ -158,10 +177,10 @@
   margin-bottom: 16px;
 }
 
-.buttonGapTop {
+.GapTop {
   cursor: pointer;
   margin-top: 10rem;
-  margin-left: 5%;
+ 
 }
 
 .quantityContainer {
@@ -233,26 +252,7 @@
   margin-top: -20px;
 }
 
-/* On mobile, make the .mintInfoContainer stack vertically */
-@media screen and (max-width: 850px) {
-  .mintInfoContainer {
-    flex-direction: column;
-    padding-bottom: 5%;
-    margin-top: 15%;
-  }
 
-  .infoSide {
-    width: 100%;
-  }
-
-  .imageSide {
-    width: 80%;
-  }
-  .description{
-    width: 90%;
-    
-  }
-}
 
 .container {
   display: flex;
@@ -266,7 +266,7 @@
   align-items: center;
   justify-content: center;
   width: 300%;
-  height: 300px; /* Adjust the height as needed */
+  height: 300px;
 }
 
 .leftImage {
@@ -281,31 +281,20 @@
   top: 0;
 }
 
-/* Add any other styles for the rest of the components as needed */
-.price{
+.price {
   font-size: 1.1rem;
   color: rgb(128, 128, 179);
   width: 500px;
-  
 }
 
-.quantid{
+.quantid {
   margin-left: 40%;
 }
-.center{
+
+.center {
   margin-left: 15%;
 }
 
-@media screen and (max-width: 850px) {
-  .center{
-    flex-direction: column;
-    align-items: center;
-    margin-left: 1%;
-  }
-  .price{
-    margin-left: 20%;
-  }
-}
 
 .nft {
   position: relative;
@@ -325,6 +314,7 @@
   line-height: 20px;
   transition: opacity 0.2s;
   width: 500px;
+  margin: 0 auto;
 }
 
 .nft:hover {
@@ -332,10 +322,4 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 850px) {
-  .nft{
-    width: 300px;
-  }
- 
-}
 
