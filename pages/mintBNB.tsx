@@ -220,9 +220,8 @@ const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.mintInfoContainer}>
-         {isLoading ? (
-          <DotLoader className={styles.mintInfoContainer} color="#306283" size={35}/>
+               {isLoading ? (
+          <DotLoader className={styles.dotloader} color="#306283" size={35}/>
         ) : (
           <>
             <div className={styles.infoSide}>
@@ -343,7 +342,7 @@ const Home: NextPage = () => {
 
           </>
         )}
-      </div>
+      
       {/* Powered by thirdweb */}{" "}
    
       
