@@ -222,7 +222,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.mintInfoContainer}>
          {isLoading ? (
-          <DotLoader color="#306283" size={35} aling-itens="center"/>
+          <DotLoader className={styles.mintInfoContainer} color="#306283" size={35}/>
         ) : (
           <>
             <div className={styles.infoSide}>
@@ -290,6 +290,7 @@ const Home: NextPage = () => {
                 <>
                   <div className={styles.center}>
                     <p className={styles.price}>Price for each unit approximately ~$1</p>
+                    
                     <p className={styles.quantid}>Quantity</p>
                     <div className={styles.quantityContainer}>
                       <button
@@ -344,21 +345,8 @@ const Home: NextPage = () => {
         )}
       </div>
       {/* Powered by thirdweb */}{" "}
-      <Image
-        src="/logo.png"
-        alt="thirdweb Logo"
-        width={187}
-        height={243}
-        className={styles.GapTop}
-        />
-      <Image
-        src="/fogoColor.png"
-        width={1200}
-        height={450}
-        alt="Background gradient from red to blue"
-        quality={100}
-        className={styles.puppets2}
-      />
+   
+      
     </div>
 
   );
