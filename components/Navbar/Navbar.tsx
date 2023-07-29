@@ -32,7 +32,9 @@ export function Navbar() {
         </div>
                
         <div className={styles.navRight}>
-          <Header />
+            <div className={styles.headerContainer}>
+              <Header />
+            </div>
           <div className={styles.navConnectNFT}>
             <Link href="/mintBNB" className={styles.nft}>
                   BUY NFT

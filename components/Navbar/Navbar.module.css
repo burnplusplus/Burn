@@ -156,3 +156,12 @@
 .btn{
   height: 45px !important;
 }
+
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    display: none; /* O botão será ocultado em telas menores que 768 pixels de largura */
+  }
+  .heroCta{
+    display: none;
+  }
+}
