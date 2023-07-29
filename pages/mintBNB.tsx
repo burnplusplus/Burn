@@ -269,6 +269,7 @@ const Home: NextPage = () => {
                   )}
                 </div>
               </div>
+              <p>Price for each unit approximately ~$1</p>
 
               {claimConditions.data?.length === 0 ||
                 claimConditions.data?.every(
@@ -286,11 +287,9 @@ const Home: NextPage = () => {
                   <Timer date={claimConditions.data[0].startTime} />
                 </div>
               ) : (
-                <>
-                  <div className={styles.center}>
-                    <p className={styles.price}>Price for each unit approximately ~$1</p>
-                    
-                    <p className={styles.quantid}>Quantity</p>
+                
+                <>               
+                    <p>Quantity</p>
                     <div className={styles.quantityContainer}>
                       <button
                         className={`${styles.quantityControlButton}`}
@@ -334,7 +333,7 @@ const Home: NextPage = () => {
                         </Web3Button>
                       )}
                     </div>
-                  </div>
+                  
                 </>
               )}
 
