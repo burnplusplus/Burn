@@ -323,12 +323,12 @@ const Home: NextPage = () => {
 
                 <div className={styles.textdois} >
                     <h3 className={styles.h3}>Phase 1</h3>
-                    <p>Launch</p>
-                    <p>Liquidez Pancake</p>
-                    <p>Listing Cex</p>
+                    <p><span className={styles.blueText}>Launch</span></p>
+                    <p><span className={styles.blueText}>Pancake</span></p>
+                    <p><span className={styles.blueText}>Listing Cex</span></p>
+                    <p><span className={styles.blueText}>Listing Coinpaprika</span></p>
                     <p>CoinGecko Listings</p>
                     <p>Coinmarketcap Listings</p>
-                    <p>Coinpaprika Listings</p>
                     <p>1,000+ Holders</p>
 
                 </div>
@@ -403,17 +403,6 @@ const Home: NextPage = () => {
                         <a className={styles.listInline} href="https://twitter.com/burnplusplus" target="_blank">
                             <Image
                                 src="/twitter.png"
-                                width={80}
-                                height={80}
-                                alt="Burn Plus Plus"
-                                quality={100}
-                                className={styles.socialImgfooter}
-                            />
-                        </a>
-                        <a className={styles.listInline} href="https://discord.gg/YsZB5Tww"
-                            target="_blank">
-                            <Image
-                                src="/discord.png"
                                 width={80}
                                 height={80}
                                 alt="Burn Plus Plus"
