@@ -219,7 +219,7 @@ const Home: NextPage = () => {
                             <div>
                                 <h1>Switch BNB for $Burn++</h1>
                                 <p className={styles.textWallet}>
-                                    Switch BNB to $Burn. We have 7% de taxes 5% volta em tokenomics em USDT e outros 2% vai para carteira de Marketing, you may need to use slippage entre 7% - 8% during times of market volatility.
+                                    Switch BNB to $Burn. We have 5% de taxes 3% volta em tokenomics em USDT e outros 2% vai para carteira de Marketing, you may need to use slippage 5.
                                 </p>
                             </div>
                         </div>
@@ -379,7 +379,7 @@ const Home: NextPage = () => {
                     <h4>Token Burning and Strategic Allocation</h4>
                     <p>Our strategy also involves token burning and strategic resource allocation. We believe that scarcity and gradual reduction of supply can drive the value of Burn++ tokens.</p>
                     <p>For this purpose, we allocate 50% of the tokens for burning, contributing to scarcity and potentially increasing demand and value for the circulating tokens.</p>
-                    <p>Instituímos uma queima de token semanal de 10% até atingirmos 75% do suprimento total, promovendo a escassez e possivelmente aumentando o valor do token restante. </p>
+                    <p>Instituímos uma queima de token semanal de 10% até atingirmos 50% do suprimento total, promovendo a escassez e possivelmente aumentando o valor do token restante. </p>
                     <p>We also reserve 10% of the supply for future use in centralized exchange listings, bridges, and liquidity pools. </p>
                     <p>We are excited about the potential of Burn++ and committed to providing a healthy and rewarding jornada for our holders. </p>
                 </div>
