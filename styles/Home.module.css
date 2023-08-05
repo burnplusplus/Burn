@@ -1108,10 +1108,7 @@
     }
   }
 
-  .fogo {
-    padding: 11px;
-    margin-top: 100px;
-  }
+
 
   .textdois {
     justify-content: center;
@@ -1390,8 +1387,8 @@
 }
 
 .fogo {
-  padding: 11px;
-  margin-top: 100px;
+  padding: 25px;
+  margin-top: 50px;
 }
 
 .textdois {
