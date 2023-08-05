@@ -219,7 +219,7 @@ const Home: NextPage = () => {
                             <div>
                                 <h1>Switch BNB for $Burn++</h1>
                                 <p className={styles.textWallet}>
-                                    Switch BNB to $Burn. We have 5% de taxes 3% volta em tokenomics em USDT e outros 2% vai para carteira de Marketing, you may need to use slippage 5.
+                                    We have 2% tax that goes to the Marketing wallet, you may need to use 2-3 slippage.
                                 </p>
                             </div>
                         </div>
@@ -362,14 +362,13 @@ const Home: NextPage = () => {
                 <div className={styles.textfire}>
                     <h4>Introduction and Holder Rewards</h4>
                     <p>Welcome to the world of Burn++ or Burn Plus Plus, our exciting meme coin! We are committed to rewarding our holders and ensuring the continuous growth of the project.</p>
-                    <p>To start, we have implemented a rewards mechanism for Burn++ holders. With every trade, a 5% tax is applied, which is distributed as USDT to wallets that hold a significant amount of the token. This strategy aims to incentivize holders to keep their tokens, as they will receive regular rewards in the form of USDT. This approach increases holder engagement and retention.</p>
                     <p>Additionally, we allocate a 2% fee for marketing purposes. These resources will be used to boost the exposure of Burn++, ensuring its growth and recognition in the market. Through partnerships with influencers, social media campaigns, and other marketing initiatives, we aim to enhance visibility and adoption of our meme coin.</p>
                 </div>
                 <div className={styles.img}>
                     <Image
-                        src="/bandeira.png"
-                        width={387}
-                        height={298}
+                        src="/burnB.png"
+                        width={250}
+                        height={250}
                         alt="Fogo Burn, meme"
                         quality={100}
                         className={styles.fogo}
@@ -377,8 +376,6 @@ const Home: NextPage = () => {
                 </div>
                 <div className={styles.textfire}>
                     <h4>Token Burning and Strategic Allocation</h4>
-                    <p>Our strategy also involves token burning and strategic resource allocation. We believe that scarcity and gradual reduction of supply can drive the value of Burn++ tokens.</p>
-                    <p>For this purpose, we allocate 50% of the tokens for burning, contributing to scarcity and potentially increasing demand and value for the circulating tokens.</p>
                     <p>Instituímos uma queima de token semanal de 10% até atingirmos 50% do suprimento total, promovendo a escassez e possivelmente aumentando o valor do token restante. </p>
                     <p>We also reserve 10% of the supply for future use in centralized exchange listings, bridges, and liquidity pools. </p>
                     <p>We are excited about the potential of Burn++ and committed to providing a healthy and rewarding jornada for our holders. </p>
